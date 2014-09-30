@@ -1,0 +1,119 @@
+/* jLightBox (using jQuery library).
+*--------------------------------------------*
+*  @author : ukhome ( ukhome@gmail.com | ntkhoa_friends@yahoo.com )
+*--------------------------------------------*
+*  @released : 24-Mar-2009 : version 1.0
+*--------------------------------------------*
+*  @revision history : ( latest version : 1.0 )
+*--------------------------------------------*
+*      + 24-Mar-2009 : version 1.0
+*          - released
+*--------------------------------------------*
+*/
+
+/* DO NOT REMOVE or CHANGE */
+div.DropListUI {/*Wrap all*/
+    position: relative;
+}
+
+div.TopLevel { /* move the active SelectUI to top */
+    z-index: 1000000 !important;
+}
+.SelectUITitle {
+    display: none !important;
+}
+select.SelectUI {
+}
+
+select.SelectUI option{
+	width:130px;
+}
+/* Default Theme */
+div.Theme_Default_Wrapper {/*Wrap all*/
+    width: 154px;
+    height: 25px;
+    background: #000;
+    margin: 0;
+}
+
+    div.Theme_Default_List {/*Wrap UL*/
+        /*border: 1px solid #81756a;*/
+    }
+    div.Theme_Default_Wrapper p {
+        width: 129px;
+        color: #efefef;
+        font-size: 1.3em;
+        padding: 5px 20px 0px 5px;
+        cursor: pointer;
+        overflow: hidden !important;
+        height: 20px;
+    }
+
+    /* UL */
+    div.Theme_Default_List ul.Theme_Default {
+        width: 193px;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #f3f3f3;
+        padding-left: 1px;
+    }
+        div.Theme_Default_List ul.Theme_Default li {
+            width: 100%;
+            padding: 0;
+            font-size: 1.2em;
+            border-top: 1px solid #e7e7e7;
+        }
+        div.Theme_Default_List ul.Theme_Default li.First {
+            border-top: none !important;
+        }
+        /*use for optgroup name*/
+        div.Theme_Default_List ul.Theme_Default li span {
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            display: block;
+            padding: 4px 0;
+            cursor: default;
+            padding: 4px 0 4px 4px;
+        }
+        /*Normal*/
+            div.Theme_Default_List ul.Theme_Default li a:link,
+            div.Theme_Default_List ul.Theme_Default li a:visited {
+                display: block;
+                width: 190px;
+                font-size: 1em;
+                color: #333333;
+                padding: 3px 0px 5px 5px;
+                overflow: hidden;
+                text-decoration: none;
+             }
+             /*Active*/
+            div.Theme_Default_List ul.Theme_Default li.Active a:link,
+            div.Theme_Default_List ul.Theme_Default li.Active a:visited {
+                text-decoration: none;
+                color: #D3002B;
+            }
+            /*Hover*/
+            div.Theme_Default_List ul.Theme_Default li.Hover a:link,
+            div.Theme_Default_List ul.Theme_Default li.Hover a:visited {
+                text-decoration: none;
+                color: #D3002B;
+                background: #dfdfdf;
+            }
+
+            /*level 2 - in case has optgroup*/
+            div.Theme_Default_List ul.Theme_Default li ul {
+                border: none;
+            }
+                div.Theme_Default_List ul.Theme_Default li ul li {
+                    font-size: 1em;
+                }
+                    div.Theme_Default_List ul.Theme_Default li ul li a:link,
+                    div.Theme_Default_List ul.Theme_Default li ul li a:visited {
+                        width: 178px;
+                        padding: 3px 0px 5px 15px;
+                        font-weight: normal;
+                    }
+
+/* end of. DO NOT REMOVE or CHANGE */

@@ -1,0 +1,147 @@
+.BlockRegister {
+	width: 550px;
+	height: 360px;
+	overflow: hidden;
+	font-size: 12px;
+	background:  none;
+	color: #00223c;
+	padding-top: 20px;
+	position: relative;
+}
+.BlockRegister a:link, .BlockRegister a:visited {
+	color: #b42f00;
+}
+.BlockRegister a:hover {
+	text-decoration: underline;
+}
+#err_form {
+	width: 435px;
+}
+input, a {
+	outline: none;
+}
+ul.Register {
+	width: 345px;
+	overflow: hidden;
+	float: left;
+}
+ul.Register li {
+	width: 100%;
+	float: left;
+	padding: 0 0 5px;
+}
+ul.Register li label {
+	width: 120px;
+	float: left;
+	text-align: right;
+	padding: 3px 5px 0 0;
+}
+ul.Register li .TextBox {
+	width: 150px;
+	height: 24px;
+	float: left;
+	border: 1px solid #a09d97;
+}
+ul.Register li .Capchar {
+	width: 160px;
+	float: left;
+}
+.TextBox input {
+	width: 100%;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	background: #f2f2f2;
+	border: none;
+	color: #000;
+}
+ul.Register li .Check {
+	width: 50px;
+	float: left;
+	padding: 3px 0 0 5px;
+}
+ul.Register li .Check a:link, ul.Register li .Check a:visited {
+	color: #b22f03;
+}
+ul.Register li .Check a:hover {
+	text-decoration: underline;
+}
+.Agree {
+	margin-left: 125px;
+	color: #00223c;
+}
+.InputAgree {
+	float: left;
+	margin-top: 3px;
+}
+.BtReg {
+	background: url(../images/bt-dk.png) no-repeat 0 0; 
+	border: medium none;
+	display: block;
+	margin: 46px 0 0 1px;
+	text-indent: -9999px;
+	width: 134px;
+	height: 61px;
+	cursor: pointer;
+}
+.BtReg:hover {
+	background-position: 0 -61px;
+}
+.CheckAcc {
+	position: absolute;
+	top: 46px;
+	left: 125px;
+	width: 200px;
+	background: #ddd;
+	color: #cc0000;
+	z-index: 100;
+}
+.CloseSuggestion {
+	float: right;
+	width: 20px;
+	text-align: right;
+	padding-right: 5px;
+	color: #666;
+}
+.CloseSuggestion a:link, .CloseSuggestion a:visited {
+	color: #666;
+	text-decoration: none;
+}
+.CloseSuggestion a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+#sVerifyImg {
+	width:150px;
+	height:37px;
+}
+.goiy {
+	background: none repeat scroll 0 0 #DDDDDD;
+	color: #CC0000;
+	left: 125px;
+	position: absolute;
+	width: 200px;
+	z-index: 100;
+}
+.goiy ul {
+	list-style-type:none;
+	padding-left:0px;
+	padding-top:0px;
+}
+.title_acc_invalid {
+	color:#FF0000;
+	text-align:left;
+	font-size:11px;
+}
+.title_acc_valid {
+	text-align:center;
+	color:#006666;
+}
+.close_suggestion {
+	left: 175px;
+	position: absolute;
+}
+.close_suggestion a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}

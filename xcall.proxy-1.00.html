@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript">
+			var called = false;
+			function performCall(){
+				if(called)
+					return;
+				called = true;
+				try {
+					var data = decodeURIComponent(window.location.hash).substr(1);
+					var i = data.indexOf(","),
+						funcName = data.substr(0, i),
+						params = eval('(' + data.substr(i + 1) + ')');
+					if (window.parent.parent.zmXCall){
+						window.parent.parent.zmXCall.call(funcName, params, window);
+					}
+				} catch(e){
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			if (document.addEventListener) { 
+				document.addEventListener("DOMContentLoaded", function() {
+					document.removeEventListener("DOMContentLoaded", arguments.callee, false);
+					performCall();
+				}, false);
+			}
+			else if (document.attachEvent) {
+				document.attachEvent("onreadystatechange", function() {
+					if (document.readyState == "complete") {
+						document.detachEvent("onreadystatechange", arguments.callee);
+						performCall();
+					}
+				});		
+			}
+			setTimeout(performCall, 500);
+		</script>
+	</body>
+</html>

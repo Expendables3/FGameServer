@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+img {
+	border: none
+}
+
+.box_popup {
+    background: url(../images/popup.png) no-repeat;
+    margin: 0;
+    overflow: hidden;
+    width: 692px;
+    height: 529px;
+}
+.content {
+	padding: 97px 26px 0 0;
+	height: 410px;
+	position: relative;
+	overflow: hidden;
+	color: #654426;
+}
+.content p {
+	text-align: justify
+}
+ul.MenuLeft {
+	display: block;
+	float: left;
+	left: 7px;
+	overflow: hidden;
+	position: absolute;
+	top: 110px;
+	width: 100px;
+}
+ul.MenuLeft li {
+	float: left;
+}
+ul.MenuLeft li a {
+	background: url(../images/menu.jpg) no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 80px;
+	height: 30px;
+	margin: 3px 0 2px 13px;
+}
+ul.MenuLeft li a.Trangchu:link, 
+ul.MenuLeft li a.Trangchu:visited {
+	background-position: 0 0;
+}
+ul.MenuLeft li a.Trangchu:hover {
+	background-position: -80px 0;
+}
+ul.MenuLeft li a.Napthe:link, 
+ul.MenuLeft li a.Napthe:visited {
+	background-position: 0 -30px;
+}
+ul.MenuLeft li a.Napthe:hover {
+	background-position: -80px -30px;
+}
+ul.MenuLeft li a.Diendan:link, 
+ul.MenuLeft li a.Diendan:visited {
+	background-position: 0 -60px;
+}
+ul.MenuLeft li a.Diendan:hover {
+	background-position: -80px -60px;
+}
+.TabPageLogin {
+	overflow: hidden;
+	width: 540px;
+	height: 30px;
+	margin: 51px 0 0 78px;
+	z-index: 30;
+	padding: 0;
+}
+.TabPageLogin li {
+	float: left;
+	list-style: none;
+	margin-right: 6px;
+}
+.TabPageLogin li a.DangKy {
+	background: url(../images/dangky.jpg) 0 0 no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 239px;
+	height: 30px;
+}
+.TabPageLogin li a.DangKy:hover, 
+
+.TabPageLogin li.Active a.DangKy {
+	background-position: 0 -30px;
+}
+.TabPageLogin li a.DangNhap {
+	background: url(../images/dangnhap.jpg) 0 0 no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 289px;
+	height: 30px;
+}
+.TabPageLogin li a.DangNhap:hover, 
+.TabPageLogin li.Active a.DangNhap {
+	background-position: 0 -30px;
+}
+#tabQuickReg iframe {
+	margin-left: 158px;
+}
+.TabContent {
+	width: 662px;
+}
+.TabContent .TaoTaiKhoan {
+	background: url(../images/taotaikhoan.jpg) 0 0 no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 96px;
+	height: 25px;
+	border: none;
+	margin: 6px 0 7px 385px;
+}
+.TabContent .TaoTaiKhoan:hover {
+	background-position: 0 -25px;
+}
+.TabContent .separate {
+	background: url(../images/separate.gif) no-repeat;
+	display: block;
+	width: 446px;
+	height: 2px;
+	margin: 0 0 10px 225px;
+}
+.TabContent .QuenMatKhau {
+	background: url(../images/quenmatkhau.jpg) 0 0 no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 110px;
+	height: 25px;
+	margin: 12px 0 10px 268px;
+}
+.TabContent .QuenMatKhau:hover {
+	background-position: 0 -25px;
+}
+ul.ListText {
+	background: url(../images/separate.gif) 0 0 no-repeat;
+	display: block;
+	overflow: hidden;
+	width: 440px;
+	line-height: 20px;
+	padding: 5px 0 0 35px;
+	margin: -15px 0 0 158px;
+}
+ul.ListText li {
+	padding: 0 0 10px 12px;
+	color: ##FFD2B5;
+}
+ul.ListText li.First {
+	color: #D7D0CF;
+}
+ul.ListText li.First a {
+	color: #F4DB5E;
+	font-weight: bold;
+	text-decoration: underline;
+}
+ul.ListText li.First a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+#tabLogin form {
+	margin-top: 35px;
+}
+.frm_dangnhap {
+	margin: 0 7px 0 200px;
+	;
+	float: left;
+	overflow: hidden;
+	width: 220px;
+	z-index: 31;
+}
+.frm_dangnhap input.First {
+	margin-bottom: 5px;
+}
+.frm_dangnhap label {
+	float: left;
+	display: block;
+	line-height: 28px;
+	color: #FFD2B5;
+}
+.frm_dangnhap input.txt_box {
+	border: 1px solid #000;
+	line-height: 18px;
+	width: 144px;
+	height: 22px;
+	background-color: #F2F2F2;
+	float: right;
+	padding: 0 0 0 4px;
+}
+.frm_button {
+	height: 53px;
+	margin: 0;
+	overflow: hidden;
+	width: 94px;
+	z-index: 32;
+}
+.frm_button input.Send {
+	background: url(../images/btn-dangnhap.jpg) no-repeat;
+	height: 53px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 90px;
+	border: none;
+}
+.frm_button input.Send:hover {
+	background-position: 0 -53px;
+}
+.frm_button a.dangky:link, 
+.frm_button a.dangky:visited, 
+.frm_button a.dangky:hover {
+	left: 10px;
+	position: absolute;
+	top: 40px;
+}
+#tabLogin p {
+	background: url(../images/separate.gif) 0 0 no-repeat;
+	padding: 10px 0 0 70px;
+	color: #D7D0CF;
+	margin: 0 0 0 130px;
+}
+#tabLogin p a {
+	font-weight: bold;
+	color: #F4DB5E;
+	text-decoration: underline;
+}
+#tabLogin p a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.BlockRegister {
+	width: 765px;
+	height: 360px;
+	overflow: hidden;
+	font-size: 12px;
+	background:  none;
+	color: #D7D0CF;
+	position: relative;
+	padding: 10px 0 0 0;
+}
+.BlockRegister form {
+	margin-left: 260px;
+}
+.BlockRegister a:link, 
+.BlockRegister a:visited {
+	color: #F4DB5E;
+	text-decoration: underline;
+}
+.BlockRegister a:hover {
+	color: #F4DB5E;
+	text-decoration: underline;
+}
+input, 
+a {
+	outline: none;
+}
+ul.Register {
+	width: 100%;
+	overflow: hidden;
+}
+ul.Register li {
+	width: 100%;
+	float: left;
+	padding: 0 0 5px;
+}
+ul.Register li label {
+	font-weight: bold;
+	width: 120px;
+	float: left;
+	text-align: right;
+	padding: 3px 5px 0 0;
+	font-size: 12px;
+}
+ul.Register li .TextBox {
+	width: 150px;
+	height: 24px;
+	float: left;
+	border: 1px solid #000;
+}
+ul.Register li .Capchar {
+	width: 192px;
+	float: left;
+}
+.TextBox input {
+	width: 100%;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	background: #F2F2F2;
+	border: none;
+	color: #000;
+}
+ul.Register li .Check {
+	width: 70px;
+	float: left;
+	padding: 3px 0 0 5px;
+}
+ul.Register li .Check a:link, 
+ul.Register li .Check a:visited {
+	color: #F4DB5E;
+	text-decoration: underline;
+}
+ul.Register li .Check a:hover {
+	color: #F4DB5E;
+	text-decoration: underline;
+}
+.Agree {
+	margin-left: 125px;
+	color: #D7D0CF;
+}
+.InputAgree {
+	float: left;
+	margin-top: 3px;
+}
+.BtReg {
+	width: 125px;
+	height: 69px;
+	background: url(../images/bt-dangky.png) 0 0 no-repeat;
+	position: absolute;
+	left: 360px;
+	bottom: 135px;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+.BtReg:hover {
+	background-position: 0 -69px;
+}
+.PopupReg .Tame {
+	background: url(../images/logo-tame.png) no-repeat;
+	display: block;
+	float: left;
+	left: 405px;
+	bottom: 15px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 138px;
+	height: 40px;
+	margin: 0;
+}
+.PopupReg .VNG {
+	background: url(../images/logo-vng.png) no-repeat;
+	display: block;
+	float: left;
+	left: 350px;
+	bottom: 6px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 38px;
+	height: 57px;
+	margin: 0;
+}

@@ -1,0 +1,154 @@
+@charset "utf-8";
+.box_frame {
+	width: 760px;
+	height: 260px;
+	background: url(../images/bg-iframe.jpg) no-repeat;
+}
+.BlockNews {
+	float: left;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 430px;
+	height: 256px;
+}
+.BlockNews h2 {
+	background: url(../images/title-tintuc.png) no-repeat;
+	text-indent: -9999px;
+	width: 184px;
+	height: 42px;
+}
+ul.ListNews {
+	width: 390px;
+	height: 205px;
+	margin: 8px 0 0 40px;
+}
+ul.ListNews li {
+	width: 356px;
+	height: 24px;
+	background: url(../images/doc.gif) repeat-x left bottom;
+	float: left;
+	padding-right: 10px;
+}
+ul.ListNews li.First {
+	background: url(../images/bg-detailnew.png) no-repeat left top;
+	height: 90px;
+}
+ul.ListNews li.Last {
+	background: none;
+}
+ul.ListNews li a:link, ul.ListNews li a:visited {
+	background: url(../images/icon-new.png) no-repeat 6px 6px;
+	color: #fff;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 0 0 22px;
+}
+ul.ListNews li a:hover {
+	text-decoration: underline;
+}
+ul.ListNews li.First a:link, ul.ListNews li.First a:visited {
+	color: #ffdf2f;
+	font-weight: bold;
+}
+ul.ListNews li a.New:link, ul.ListNews li a.New:visited, ul.ListNews li a.Hot:link, ul.ListNews li a.Hot:visited {
+	font-weight: bold;
+}
+ul.ListNews li .DetailNews {
+	overflow: hidden;
+	margin-left: 6px;
+}
+ul.ListNews li .DetailNews .Images {
+	background: #a4b3a8;
+	float: left;
+	width: 102px;
+	height: 60px;
+	padding: 1px;
+	overflow: hidden;
+	position: relative;
+	margin-right: 10px;
+}
+ul.ListNews li .DetailNews .Images a {
+	width: 102px;
+	height: 60px;
+	display: block;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+}
+.Images img {
+	padding: 1px;
+	background: #0e3244;
+	width: 100px;
+	height: 58px;
+}
+ul.ListNews li .DetailNews p {
+	text-align: justify;
+	border-bottom: none;
+	color: #fff;
+}
+.Date {
+	font-weight: normal;
+	float: right;
+	font-size: 12px;
+	color: #fff;
+}
+#boxEvent {
+	background: url(../images/bg-banner.jpg) no-repeat;
+	height: 210px;
+	width: 330px;
+	display:block;
+	position:relative;
+	margin-top: 46px;
+	float: right;
+}
+#img li {
+	padding: 11px 0 0 25px;
+	position:absolute;
+	z-index:1;
+	display:block;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+#img li a img {
+	margin:1px 0px 0px 2px;
+}
+#img li.ActiveBanner {
+	z-index:5;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+#imgControl {
+	float: right;
+	left: 195px;
+	position: absolute;
+	top: 180px;
+	width: 100px;
+	z-index: 6;
+}
+#imgControl li {
+	height:20px;
+	width:23px;
+	float:left;
+	list-style:none;
+	margin-bottom:3px;
+	font-size:11px;
+	font-weight:bold;
+}
+ul#imgControl li a:link, ul#imgControl li a:visited {
+	background: url(../images/but-event.png) no-repeat scroll -24px 0 transparent;
+	color: #3C2211;
+	display: block;
+	height: 21px;
+	line-height: 20px;
+	padding: 1px 0 0 6px;
+	width: 15px;
+}
+#imgControl li.ActiveBanner a:link, #imgControl li.ActiveBanner a:visited, #imgControl li.ActiveBanner a:hover, ul#imgControl li a:hover {
+	background-position:0 0px;
+	text-decoration:none;
+	color: #ffe400;
+}

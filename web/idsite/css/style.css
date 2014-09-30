@@ -1,0 +1,527 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 866px;
+	background: #0d293e;
+}
+.Wrapper {
+	background: url(../images/bg.jpg) no-repeat center top;
+	width: 866px;
+	margin: 0 auto;
+}
+.Main {
+	height: 1100px;
+	margin: 0 auto;
+	position: relative;
+	width: 866px;
+}
+a.Logo {
+	display: block;
+	width: 300px;
+	height: 150px;
+	left: 282px;
+	position: absolute;
+	text-indent: -9999px;
+	z-index: 10;
+}
+ul.MenuLeft {
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: absolute;
+	top: 225px;
+	left: 33px;
+	width: 100px;
+	height: 185px;
+}
+ul.MenuLeft li {
+	float: left;
+}
+ul.MenuLeft li a:link, ul.MenuLeft li a:visited {
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+ul.MenuLeft li a:hover {
+	color: #ffba00;
+	text-decoration: underline;
+}
+ul.MenuLeft li a.Nav01 {
+	padding: 6px 0 0 8px;
+	height: 26px;
+}
+ul.MenuLeft li a.Nav02 {
+	height: 45px;
+	margin: 17px 0 0 24px;
+	padding: 25px 0 0 4px;
+}
+ul.MenuLeft li a.Nav03 {
+	height: 35px;
+	margin: 9px 0 0 45px;
+	padding: 18px 0 0 5px;
+	width: 50px;
+}
+ul.ChiaSe {
+	background: url(../images/bg-chiase.png) no-repeat;
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: absolute;
+	top: 429px;
+	left: 45px;
+	width: 71px;
+	height: 33px;
+	padding: 21px 0 0 21px;
+}
+ul.ChiaSe li {
+	float: left;
+	width: 30px;
+	height: 20px;
+}
+ul.ChiaSe li a {
+	display: block;
+	text-indent: -9999px;
+	width: 20px;
+	height: 20px;
+}
+ul.ChiaSe li a.ZM:link, 
+ul.ChiaSe li a.ZM:visited {
+	background: url(../images/zingme.gif) no-repeat 0 0;	
+}
+ul.ChiaSe li a.ZM:hover {
+	background-position: 0 -20px;
+}
+ul.ChiaSe li a.FB:link, 
+ul.ChiaSe li a.FB:visited {
+	background: url(../images/facebook.gif) no-repeat 0 0;	
+}
+ul.ChiaSe li a.FB:hover {
+	background-position: 0 -20px;
+}
+.Idlogin {
+	background: url(../images/bg-dangnhap.png) no-repeat left 100px;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 170px;
+	left: 123px;
+	width: 550px;
+	height: 460px;
+}
+.Server {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 170px;
+	left: 123px;
+	width: 550px;
+	height: 460px;
+}
+.UserInfo {
+	color: #CE9B03;
+}
+.User {
+	background: url(../images/bg-bot.png) no-repeat center top;
+	color: #fff;
+	font-size: 14px;
+	padding-left: 60px;
+	line-height: 22px;
+	left: 120px;
+	top: 189px;
+	width: 320px;
+	height: 22px;
+	z-index: 100;
+	position: absolute;
+}
+.User a:link, .User a:visited {
+	color: #fff;
+}
+.User a:hover {
+	text-decoration: underline;
+}
+p.ServerNew {
+	background: url(../images/bg-newserver.png) no-repeat center top;
+	overflow: hidden;
+	width: 315px;
+	height: 150px;
+	margin-left: 155px;
+}
+p.ServerNew a:link, 
+p.ServerNew a:visited {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	color: #f4de88;
+	width: 256px;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	margin: 47px 0 0 28px;
+}
+p.ServerNew a:hover {
+	background: url(../images/bg-newserver-hover.png) no-repeat;
+}
+
+.Flag {
+	font-weight: bold;
+	height: 150px;
+	position: absolute;
+	right: 280px;
+	text-align: center;
+	top: 90px;
+	width: 117px;
+}
+.Flag a:link, .Flag a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.Flag a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.ListServer {
+	background: url(../images/bg-2server.png) no-repeat 0 0;
+	width: 500px;
+	height: 242px;
+	top: 217px;
+	left: 50px;	
+	position: absolute;
+}
+.ListServer h2 {
+	display: block;
+	width: 100px;
+	height: 33px;
+	line-height: 33px;
+	color: #fddc01;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+ul.TwoServer {
+	overflow: hidden;
+	width: 260px;
+	height: 162px;
+	position: absolute;
+	top: 60px;
+	left: 120px;
+}
+ul.TwoServer li {
+	float: left;
+	width: 100%;
+	height: 80px;
+	list-style: none;
+}
+ul.TwoServer li a:link, 
+ul.TwoServer li a:visited {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	width: 260px;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: #002643;
+}
+ul.TwoServer li a.Day:link, 
+ul.TwoServer li a.Day:visited {
+	background: url(../images/server-day.png) no-repeat 0 0;
+}
+ul.TwoServer li a.Day:hover {
+	background-position: 0 -66px;
+}
+
+ul.TwoServer li a.Tot:link, 
+ul.TwoServer li a.Tot:visited {
+	background: url(../images/server-tot.png) no-repeat 0 0;
+}
+ul.TwoServer li a.Tot:hover {
+	background-position: 0 -66px;
+}
+
+ul.SixServer {
+	overflow: hidden;
+	width: 440px;
+	height: 180px;
+	position: absolute;
+	top: 43px;
+	left: 40px;
+}
+ul.SixServer li {
+	float: left;
+	width: 220px;
+	height: 60px;
+	list-style: none;
+}
+ul.SixServer li a:link, 
+ul.SixServer li a:visited {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	width: 200px;
+	height: 51px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #002643;
+}
+ul.SixServer li a.Day:link, 
+ul.SixServer li a.Day:visited {
+	background: url(../images/server-day-small.png) no-repeat 0 0;
+}
+ul.SixServer li a.Day:hover {
+	background-position: 0 -51px;
+}
+
+ul.SixServer li a.Tot:link, 
+ul.SixServer li a.Tot:visited {
+	background: url(../images/server-tot-small.png) no-repeat 0 0;
+}
+ul.SixServer li a.Tot:hover {
+	background-position: 0 -51px;
+}
+
+
+
+
+
+
+
+
+
+
+.ServerNew .ServerNewIcon {
+	background: url(../images/icon-new.gif) no-repeat 0 0;
+	display: block;
+	height: 76px;
+	position: absolute;
+	text-indent: -9999px;
+	right: 0;
+	top: 0;
+	width: 40px;
+}
+.ServerNew li a:hover .ServerNewIcon {
+	background-position: -40px 0;
+}
+.TabServer {
+	background-color: #2a0300;
+	top: 184px;
+	left: 177px;
+	overflow: hidden;
+	position: absolute;
+	width: 590px;
+	height: 21px;
+	padding-left: 2px;
+}
+.TabServer .RowServerOuter {
+	overflow: hidden;
+	float: left;
+	width: 532px;
+}
+.TabServer a, ul.RowServer li.ui-state-active a {
+	display: block;
+	background: url(../images/button-sever.jpg) no-repeat;
+	color: #c4634b;
+}
+ul.RowServer {
+	width: 10000px;
+	margin-left: 0;
+}
+ul.RowServer li {
+	float: left;
+	margin: 0 1px 0 0;
+}
+ul.RowServer li a {
+	background-position: 0 0;
+	width: 49px;
+	height: 19px;
+	line-height: 19px;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+ul.RowServer li a:hover, ul.RowServer li.ui-state-active a {
+	background-position: 0 -19px;
+	color: #e8be9c;
+	width: 49px;
+	height: 19px;
+	text-decoration: none;
+}
+.TabServer .prev {
+	background-position: -49px 0;
+	width: 28px;
+	height: 19px;
+	margin: 0 1px 0 0;
+	text-indent: -9999px;
+	float: left;
+}
+.TabServer .prev:hover {
+	background-position: -49px -19px;
+	width: 28px;
+	height: 19px;
+	margin: 0 1px 0 0;
+}
+.TabServer .prev.disabled {
+	opacity: 0.3;
+	cursor: default;
+	background-position: -49px 0;
+}
+.TabServer .next {
+	background-position: -77px 0;
+	width: 28px;
+	height: 19px;
+	margin: 0 1px 0 0;
+	text-indent: -9999px;
+	position: absolute;
+	right: 0;
+}
+.TabServer .next:hover {
+	background-position: -77px -19px;
+	width: 28px;
+	height: 19px;
+	margin: 0 1px 0 0;
+}
+.TabServer .next.disabled {
+	opacity: 0.3;
+	cursor: default;
+	background-position: -77px 0;
+}
+.BoxIframe {
+	bottom: 11px;
+	display: block;
+	width: 760px;
+	height: 260px;
+	left: 33px;
+	top: 665px;
+	overflow: hidden;
+	position: absolute;
+}
+.Footer {
+	bottom: -137px;
+	color: #62808D;
+	font-size: 12px;
+	height: 250px;
+	position: absolute;
+	width: 100%;
+}
+.Footer p {
+	bottom: 113px;
+	color: #c28757;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	left: 352px;
+	position: absolute;
+	width: 280px;
+}
+.Tame {
+	background: url(../images/logo-tame.png) no-repeat;
+	display: block;
+	float: left;
+	left: 193px;
+	bottom: 118px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 138px;
+	height: 40px;
+}
+.VNG {
+	background: url(../images/logo-vng.png) no-repeat;
+	display: block;
+	float: left;
+	left: 140px;
+	bottom: 113px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 38px;
+	height: 57px;
+}
+.Rating {
+	background: url(../images/rating.png) no-repeat;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	position: absolute;
+	right: 197px;
+	bottom: 100px;
+	width: 157px;
+	height: 75px;
+}
+ul.Share {
+	background: url(../images/bg-communic.png) no-repeat 0 0;
+	display: block;
+	height: 25px;
+	left: 140px;
+	padding: 5px 0 0 53px;
+	position: absolute;
+	top: 16px;
+	width: 57px;
+}
+ul.Share li {
+	float: left;
+	list-style-type: none;
+}
+ul.Share li a.Facebook:link, ul.Share li a.Facebook:visited {
+	background: url(../images/facebook.gif) no-repeat left top;
+	display: block;
+	height: 20px;
+	margin: 0 5px 0 0;
+	text-indent: -9999px;
+	width: 20px;
+}
+ul.Share li a.Facebook:hover {
+	background-position: 0 -20px;
+}
+ul.Share li a.Zingme:link, ul.Share li a.Zingme:visited {
+	background: url(../images/zingme.gif) no-repeat left top;
+	display: block;
+	height: 20px;
+	margin: 0 5px 0 0;
+	text-indent: -9999px;
+	width: 20px;
+}
+ul.Share li a.Zingme:hover {
+	background-position: 0 -20px;
+}
+ul.Share li a.Diendan:link, ul.Share li a.Diendan:visited {
+	background: url(../images/diendan.gif) no-repeat left top;
+	display: block;
+	height: 20px;
+	margin: 0 5px 0 0;
+	text-indent: -9999px;
+	width: 56px;
+}
+ul.Share li a.Diendan:hover {
+	background-position: 0 -20px;
+}
+.RedText {
+	color: #9E1300;
+	font-weight: bolder;
+}
+#sub_spamlink {
+	background: none repeat 0 0 #FFFFFF;
+	color: #000000;
+	display: none;
+	height: 410px;
+	position: absolute;
+	width: 414px;
+	z-index: 1000;
+}
+.SurveyClose {
+	color: #654426;
+	font-weight: bold;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}

@@ -1,0 +1,109 @@
+div.Theme_GP_Wrapper {
+    background: url(../../images/province.png) no-repeat scroll left top transparent;
+    position: absolute;
+    left: 182px;
+    top: 132px;
+    width: 254px;
+    height: 45px;
+}
+#frmServer div.Theme_GP_Wrapper {
+    background: url(../images/province.png) no-repeat scroll left top transparent;
+    float: left;
+    margin: 5px 0 0;
+    padding: 0;
+    width: 240px;
+    height: 45px;
+	line-height: 45px;
+}
+div.Theme_GP_List {
+    border: 2px solid #003c54;
+	background: url(../../images/bot-select.gif) no-repeat center bottom;
+    margin: 0 10px;
+    padding: 0 0 11px 0;
+}
+#frmServer div.Theme_GP_List {
+    border: 1px solid #676767;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+#frmServer div.Theme_GP_Wrapper p {
+    color: #5C84A0;
+    cursor: pointer;
+    font-size: 11px;
+    height: 18px;
+    overflow: hidden;
+    padding: 0 10px 0 5px;
+    width: 100px;
+}
+.DropListUIContainerHome {
+    width: auto !important;
+}
+div.Theme_GP_Wrapper p {
+    color: #003951;
+    cursor: pointer;
+    font-size: 15px;
+    overflow: hidden;
+    width: 240px;
+    height: 45px;
+	line-height: 40px;
+	padding: 0 0 0 10px;
+}
+div.Theme_GP_List ul.SelectUI.Theme_GP {
+    background-color: #acf3ff;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 230px;
+}
+div.Theme_GP_List ul.Theme_GP li {
+	background: url(../../images/line.gif) no-repeat center top;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+	height: 26px
+}
+div.Theme_GP_List ul.Theme_GP li.First {
+    border-top: medium none !important;
+}
+div.Theme_GP_List ul.Theme_GP li span {
+    cursor: default;
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 3px 0 3px 4px;
+}
+div.Theme_GP_List ul.Theme_GP li a:link, 
+div.Theme_GP_List ul.Theme_GP li a:visited {
+    color: #004158;
+    display: block;
+    font-size: 12px;
+	font-weight: bold;
+    overflow: hidden;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+	line-height: 26px;
+}
+div.Theme_GP_List ul.Theme_GP li.Active a:link, 
+div.Theme_GP_List ul.Theme_GP li.Active a:visited {
+    text-decoration: underline;
+}
+div.Theme_GP_List ul.Theme_GP li.Hover a:link, 
+div.Theme_GP_List ul.Theme_GP li.Hover a:visited {
+    text-decoration: underline;
+}
+div.Theme_GP_List ul.Theme_GP li ul {
+    border: medium none;
+}
+div.Theme_GP_List ul.Theme_GP li ul li {
+    font-size: 1em;
+}
+div.Theme_GP_List ul.Theme_GP li ul li a:link, div.Theme_GP_List ul.Theme_GP li ul li a:visited {
+    font-weight: normal;
+    padding: 5px 0 5px 5px;
+    width: 147px;
+}
+div.Theme_GP_Modified_Wrapper {
+}
